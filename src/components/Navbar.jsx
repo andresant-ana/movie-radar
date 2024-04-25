@@ -10,8 +10,8 @@ const Navbar = () => {
           <Link to="/">
             <img src={logo} alt="logo" />
           </Link>
-          <Link to="/movie/1">Movies</Link>
-          <Link to="/serie/1">TV Shows</Link>
+          <Link to="/movies/1">Movies</Link>
+          <Link to="/tv-shows/1">TV Shows</Link>
         </div>
         <form>
           <input type="text" placeholder="Search a movie or TV show" />

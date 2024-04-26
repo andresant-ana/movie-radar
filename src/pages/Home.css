@@ -1,0 +1,39 @@
+.swiper-button-prev,
+.swiper-button-next {
+  color: #fff;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.5s;
+  top: 180px;
+  background-color: rgb(32, 32, 32, 0.8);
+  border-radius: 5px;
+  padding: 30px;
+}
+
+.swiper-button-prev {
+  left: -7px;
+  padding-right: 22px;
+}
+
+.swiper-button-next {
+  right: -7px;
+  padding-left: 22px;
+}
+
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+  color: #ef4234;
+}
+
+.swiper {
+  margin: 40px 280px 70px 280px;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

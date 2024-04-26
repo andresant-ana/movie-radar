@@ -1,0 +1,40 @@
+.movies-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  color: #fff;
+}
+
+.movie-card {
+  width: min-content;
+  border-radius: 10px;
+  padding: 20px;
+  transition: 0.5s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+}
+
+.movie-card img {
+  height: 300px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.movie-card img:hover {
+  opacity: 0.7;
+}
+
+.movie-card-info {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.iconCard {
+  padding-top: 4px;
+}
